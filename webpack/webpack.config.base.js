@@ -24,7 +24,8 @@ module.exports = {
       // },
       {
         test: /\.(js|ts|)x?$/,
-        include: path.resolve(__dirname, '../source/client'),
+        include: path.resolve(__dirname, '../source'),
+        exclude: path.resolve(__dirname, '../source/server'),
         loader: 'babel-loader'
       },
       {

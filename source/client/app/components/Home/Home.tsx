@@ -1,7 +1,15 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { toggleMenu } from '../../../../store/actions/sideMenu'
 
-const Home = () => (
-  <div><h1>Home Page</h1></div>
+const Home = ({toggleMenu}) => (
+  <div>
+    <h1>Home Page</h1>
+    <div>
+      <button onClick={toggleMenu}>test redux</button>
+    </div>
+  </div>
 )
 
-export default Home;
+
+export default connect(null, {toggleMenu})(Home);

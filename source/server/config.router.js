@@ -6,7 +6,7 @@ import { StaticRouter } from 'react-router'
 import { matchRoutes, renderRoutes } from 'react-router-config'
 
 import routes from '../client/app/routes'
-import configureStore from '../client/app/store/configureStore'
+import configureStore from '../store/configureStore'
 
 const router = new Router()
 
