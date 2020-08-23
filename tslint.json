@@ -122,12 +122,12 @@
 			"check-whitespace"
 		],
 		"quotemark": [
-			true,
+			false,
 			"single",
 			"avoid-escape"
 		],
 		"semicolon": [
-			true,
+			false,
 			"always"
 		],
 		"variable-name": [

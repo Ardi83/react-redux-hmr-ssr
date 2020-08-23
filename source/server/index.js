@@ -25,7 +25,7 @@ app.use(router.routes())
 app.listen(port, error => {
   error
     ? console.error(error)
-    : console.info(`==> 🌎  Listening on port ${port}.`)
+    : console.log(`==> Listening on port http://localhost:${port}`)
 })
 
 function setGlobalScope(scope) {
