@@ -1,0 +1,28 @@
+{
+  "presets": [
+    // ["@babel/preset-env", {
+    //   "modules": false,
+    //   "development": {
+    //     "presets": ["react-hmre"],
+    //     "plugins": [
+    //       "@babel/proposal-class-properties",
+    //       "@babel/proposal-object-rest-spread",
+    //       ["react-transform", {
+      //         "transforms": [{
+        //           "transform": "react-transform-hmr",
+        //           "imports": ["react"],
+        //           "locals": ["module"]
+        //         }]
+        //       }]
+        //     ]
+        //   }
+        // }],
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+    "plugins": [
+      "@babel/proposal-class-properties",
+      "@babel/proposal-object-rest-spread"
+    ]
+}
